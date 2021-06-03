@@ -6,13 +6,13 @@ body {
   margin: 0;
   width: 100vw;
   box-sizing: border-box;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 .header {
   height: 10vh;
   background-color: white;
   width: 100%;
-  padding-left: 5vw;
-  padding-right: 5vw;
   position: fixed;
   top: 0;
   left: 0;
@@ -23,33 +23,108 @@ body {
   margin-top: 10vh;
   width: 100%;
   display: flex;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .sidebar {
   flex: 1;
-  height: 100vh;
+  height: 1250px;
   background-color: #afc7ac;
+  width: auto;
+}
+.imagine {
+  padding-right: 60px;
+  padding-left: 70px;
+  padding-top: 60px;
+}
+hr {
+  height: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.paragraphs1 {
+  padding-top: 40px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  letter-spacing: 17px;
+  font-family: Goudy Old Style;
+}
+.paragraphs2 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-family: Vivaldi;
 }
 
+.paragraphs3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.imagine_1 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 160px;
+  padding-right: 20px;
+}
+.paragraphs4 {
+  padding-top: 40px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+  padding-bottom: 20px;
+}
+.paragraphs5 {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
 .content {
   flex: 1;
-  height: 100vh;
+  height: 50vh;
   background-color: white;
   padding: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
 }
 .content_title {
   color: white;
   background-color: #dcbcad;
-  width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 370px;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
+  letter-spacing: 10px;
 }
 
 .paragraph {
   color: #979191;
+  font-size: 17px;
+  text-align: justify;
+  margin-right: 20px;
+}
+.paragraph_1 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: #979191;
   font-size: 16px;
+  text-align: justify;
+  margin-right: 20px;
+}
+.paragraph_2 {
+  padding-top: 50px;
+  color: #979191;
+  font-size: 16px;
+  text-align: justify;
+  margin-right: 20px;
+}
+.paragraph_3 {
+  color: #979191;
+  font-size: 16px;
+  text-align: justify;
+  margin-right: 20px;
 }
